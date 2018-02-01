@@ -50,5 +50,9 @@
 
     <string name="tesla_settings_activity">TeslaCoil</string>
     <string name="tesla_settings_activity_summary">Additional project settings</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
+
 </resources>
 
