@@ -191,5 +191,5 @@ public class Settings extends SettingsActivity {
     public static class UserAndAccountDashboardActivity extends SettingsActivity {}
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class TeslaActivity extends SettingsActivity {}
-
+    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
 }
