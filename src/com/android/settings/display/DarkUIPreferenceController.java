@@ -55,9 +55,9 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
         super.displayPreference(screen);
         mSystemUiThemeStyle = (ListPreference) screen.findPreference(SYSTEM_UI_THEME);
         int systemuiThemeStyle = Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.SYSTEM_UI_THEME, 0);
+                Settings.System.SYSTEM_UI_THEME, 3);
         int valueIndex = mSystemUiThemeStyle.findIndexOfValue(String.valueOf(systemuiThemeStyle));
-        mSystemUiThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 0);
+        mSystemUiThemeStyle.setValueIndex(valueIndex >= 0 ? valueIndex : 3);
         mSystemUiThemeStyle.setSummary(mSystemUiThemeStyle.getEntry());
         mSystemUiThemeStyle.setOnPreferenceChangeListener(this);
     }
