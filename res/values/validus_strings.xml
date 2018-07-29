@@ -20,7 +20,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Rom version -->
-    <string name="rom_version_title">TeslaOs version</string>
+    <string name="rom_version_title">Tesla version</string>
 
     <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
 
@@ -48,7 +48,7 @@
     <string name="lock_directly_show_pin">Directly show PIN entry</string>
     <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking the device</string>
 
-    <string name="tesla_settings_activity">Tavern</string>
+    <string name="tesla_settings_activity">TeslaCoil</string>
     <string name="tesla_settings_activity_summary">Additional project settings</string>
 </resources>
 

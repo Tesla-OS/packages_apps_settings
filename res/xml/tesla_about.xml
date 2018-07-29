@@ -19,8 +19,8 @@
     android:orientation="horizontal" >
 
         <ImageView
-            android:layout_width="600dp"
-            android:layout_height="100dp"
+            android:layout_width="800dp"
+            android:layout_height="200dp"
             android:scaleType="centerInside"
             android:adjustViewBounds="true"
             android:src="@drawable/tesla_about"
