@@ -48,7 +48,7 @@
     <string name="lock_directly_show_pin">Directly show PIN entry</string>
     <string name="lock_directly_show_summary">Skip the swipe up to unlock screen when unlocking the device</string>
 
-    <string name="tavern_settings_activity">Tavern</string>
-    <string name="tavern_settings_activity_summary">Additional project settings</string>
+    <string name="tesla_settings_activity">Tavern</string>
+    <string name="tesla_settings_activity_summary">Additional project settings</string>
 </resources>
 
