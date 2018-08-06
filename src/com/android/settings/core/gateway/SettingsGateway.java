@@ -131,8 +131,10 @@ import com.android.settings.wifi.WifiAPITest;
 import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
-import com.gzr.tesla.Tesla;
-import com.gzr.tesla.fragments.SmartPixels;
+
+import com.tesla.coil.TeslaCoil;
+
+import com.tesla.coil.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -255,7 +257,7 @@ public class SettingsGateway {
             LockscreenDashboardFragment.class.getName(),
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
-            Tesla.class.getName(),
+            TeslaCoil.class.getName(),
             SmartPixels.class.getName(),
     };
 
@@ -294,7 +296,7 @@ public class SettingsGateway {
             Settings.DateTimeSettingsActivity.class.getName(),
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
-            Settings.TeslaActivity.class.getName(),
+            Settings.TeslaCoilActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
     };
 }

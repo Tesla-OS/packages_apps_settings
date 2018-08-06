@@ -3296,30 +3296,5 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
-        <activity android:name=".Settings$TeslaActivity"
-                  android:label="@string/tesla_settings_activity"
-                  android:icon="@drawable/ic_settings_tesla">
-            <intent-filter android:priority="12">
-                <action android:name="com.android.settings.action.SETTINGS"/>
-            </intent-filter>
-            <meta-data android:name="com.android.settings.category"
-                       android:value="com.android.settings.category.ia.homepage"/>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.gzr.tesla.Tesla"/>
-            <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/tesla_settings_activity_summary"/>
-        </activity>
-
-        <!-- Smart Pixels -->
-        <activity android:name="Settings$SmartPixelsActivity"
-                android:label="@string/smart_pixels_title">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.gzr.tesla.fragments.SmartPixels" />
-        </activity>
-
     </application>
 </manifest>
