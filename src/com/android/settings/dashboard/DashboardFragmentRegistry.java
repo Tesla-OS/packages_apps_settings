@@ -91,8 +91,6 @@ public class DashboardFragmentRegistry {
                 CategoryKey.CATEGORY_NOTIFICATIONS);
         PARENT_TO_CATEGORY_KEY_MAP.put(LockscreenDashboardFragment.class.getName(),
                 CategoryKey.CATEGORY_SECURITY_LOCKSCREEN);
-        PARENT_TO_CATEGORY_KEY_MAP.put(Tesla.class.getName(),
-                CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
         PARENT_TO_CATEGORY_KEY_MAP.put(TeslaCoil.class.getName(),
                 CategoryKey.CATEGORY_SYSTEM_DEVELOPMENT);
 
